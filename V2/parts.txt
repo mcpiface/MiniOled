@@ -1,0 +1,21 @@
+Partlist
+
+Exported from McPiFace-Pi4-MiniOled-V2.brd at 12/01/2020 16:21
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                                                        Package                                Library             Position (mm)         Orientation
+
+D2                                                                    LED-1206-BOTTOM-2.0MM                  ThingySticks        (35.2 69)             MR180
+D3                                                                    LED-1206-BOTTOM-2.0MM                  ThingySticks        (40.9 69)             MR0
+DISPLAY  DISPLAY0.91_INCH_DISPLAY                                     I2C_DISPLAY_0.91_INCH                  ThingySticks        (1 63)                R270
+J1                                                                    1X02_NO_SILK                           SparkFun-Connectors (5.6 26.4)            R0
+J2       MC_PI_FACE_LEDSSIDE                                          JST-4-SH-1.0MM-SIDE                    McPiFace            (38.1 59.2)           MR0
+R1       1K5                                                          0805                                   SparkFun-Resistors  (41.5 64.9)           MR90
+R2       1K5                                                          0805                                   SparkFun-Resistors  (33.4 64.9)           MR90
+R4       4k7                                                          0805                                   SparkFun-Resistors  (8.3 54)              MR180
+R5       4k7                                                          0805                                   SparkFun-Resistors  (6.7 57.1)            MR180
+S1       MOMENTARY-SWITCH-SPSTTACKTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST TACTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST ThingySticks        (37.7 22)             R270
+U$2      MC_PI_FACE_I2CTOP                                            JST-6-SH-1.0MM-TOP                     McPiFace            (6.1 44)              MR90
