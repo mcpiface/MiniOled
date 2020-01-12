@@ -158,19 +158,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="2" y1="0" x2="42" y2="0" width="0" layer="20"/>
-<wire x1="42" y1="0" x2="44" y2="2" width="0" layer="20"/>
-<wire x1="44" y1="2" x2="44" y2="86" width="0" layer="20"/>
-<wire x1="44" y1="86" x2="42" y2="88" width="0" layer="20"/>
-<wire x1="42" y1="88" x2="2" y2="88" width="0" layer="20"/>
-<wire x1="2" y1="88" x2="0" y2="86" width="0" layer="20"/>
-<wire x1="0" y1="86" x2="0" y2="2" width="0" layer="20"/>
-<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20"/>
 <wire x1="22" y1="-6.5" x2="22" y2="108.5" width="0" layer="49"/>
 <wire x1="-3.5" y1="6" x2="51.5" y2="6" width="0" layer="49"/>
 <wire x1="-2" y1="82" x2="50" y2="82" width="0" layer="49"/>
-<text x="16.5" y="64.5" size="1.778" layer="20">CUTOUT</text>
-<text x="17" y="20.5" size="1.778" layer="20">CUTOUT</text>
 <dimension x1="14" y1="17.5" x2="14" y2="0" x3="14" y3="8.75" textsize="1.778" layer="47"/>
 <dimension x1="14" y1="17.5" x2="0" y2="17.5" x3="7" y3="-8.5" textsize="1.778" layer="47"/>
 <dimension x1="14" y1="17.5" x2="31" y2="17.5" x3="22.5" y3="-8.6" textsize="1.778" layer="47"/>
@@ -178,7 +168,6 @@
 <dimension x1="14" y1="70.5" x2="28.5" y2="68" x3="21.25" y3="92.1" textsize="1.778" layer="47" dtype="horizontal"/>
 <wire x1="-1.5" y1="76" x2="50" y2="76" width="0.4064" layer="49"/>
 <wire x1="-3.5" y1="12" x2="51.5" y2="12" width="0.4064" layer="49"/>
-<text x="1.6" y="13.4" size="1.778" layer="1" ratio="15">PiBlade Mc Mini OLED PiFace</text>
 <text x="33.6" y="58.8" size="1.27" layer="26" ratio="15" rot="MR270">https://github.com/McPiFace/MiniOled</text>
 <circle x="22" y="82" radius="5" width="0.2" layer="41"/>
 <circle x="22" y="6" radius="5" width="0.2" layer="41"/>
@@ -550,20 +539,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="dirt_cheap_dirty_boards.v1">
+<designrules name="dirt_cheap_dirty_boards.v1.1">
+<description language="de">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Min width/Spacing: 6/6mil
+&lt;br&gt;Min diameter of finished hole 12mil</description>
 <description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
 &lt;br&gt;
-&lt;br&gt;Min width/Spacing: 5/5mil
+&lt;br&gt;Min width/Spacing: 6/6mil
+&lt;br&gt;Min diameter of finished hole 12mil</description>
+<description language="zh">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Min width/Spacing: 6/6mil
 &lt;br&gt;Min diameter of finished hole 12mil</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="5mil"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="5mil"/>
-<param name="mdViaVia" value="5mil"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
 <param name="mdSmdPad" value="0mil"/>
 <param name="mdSmdVia" value="0mil"/>
 <param name="mdSmdSmd" value="0mil"/>
@@ -572,7 +569,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="5mil"/>
+<param name="msWidth" value="6mil"/>
 <param name="msDrill" value="12mil"/>
 <param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>

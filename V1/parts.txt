@@ -1,6 +1,6 @@
 Partlist
 
-Exported from McPiFace-MiniOled-V1.brd at 09/02/2019 21:59
+Exported from McPiFace-MiniOled-V1.brd at 15/02/2019 19:13
 
 EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
 
